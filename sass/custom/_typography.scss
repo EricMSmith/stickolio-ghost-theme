@@ -47,6 +47,15 @@ h1, h2, h3, h4, h5 {font-family:$font-family-bold; margin:3.125em 0 .625em; text
 
 a {@include single-transition(all, .15s, ease); border-bottom:1px dotted; text-decoration:none}
 #main a {font-family:$font-family-bold}
+#main h1.header_index {
+    margin:2.25em 0;
+    text-align:center;
+    font-size:2em;
+    border-bottom:0;
+
+    a {color: $text-color-grey;}
+    a:hover {color: $text-color-link;}
+}
 p, pre {margin:0 0 1em 0}
 pre,
 .pre-like {padding:1em; background:$background-lightgrey; border:1px dashed $background-borders}

@@ -29,7 +29,7 @@ $bp-small-phones-p: 410px;
 
 	.spinner {right:21px}
 
-	.logo {margin-top:10%}
+	.logo {margin-top:6%}
 
 	.post-content {
 		ul {margin-left:1.8em}
@@ -53,7 +53,7 @@ $bp-small-phones-p: 410px;
 /* ==================================================================================================================== */
 
 @media screen and (max-width: bp-calculation($bp-tablets, "down")) {
-	.logo {font-size:3.75em; margin-top:6%}
+	.logo {font-size:2.75em; margin-top:10%}
 	.author-bio {font-size:90%}
 	#main {padding:0 1.75em 1.75em}
 
@@ -81,6 +81,7 @@ $bp-small-phones-p: 410px;
 /* ==================================================================================================================== */
 
 @media screen and (max-width: $bp-small-phones-l) and (orientation: portrait) {
+  .logo {font-size:2em; margin-top:22%}
 	#main-sidebar {min-height:550px}
 	#main-footer p {font-size:.7em}	
 }

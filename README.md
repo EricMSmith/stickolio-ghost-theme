@@ -1,4 +1,4 @@
-Stickolio - My illustration portfolio Ghost theme built off of Sticko.
+Stickolio
 =======
 
 I wanted to try [Ghost](http://ghost.org) for my portfolio website, and [sticko](https://github.com/damianmuti/sticko) was the perfect theme to build from. Many thanks to **[Damián Muti](https://github.com/damianmuti/sticko)** for his excellent theme and for setting me on the right path with Compass.
